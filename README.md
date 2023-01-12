@@ -18,7 +18,7 @@ to move to a specific
 
 ## Raw video
 The raw video is too large for Github. It is available for download here:\
-
+https://www.dropbox.com/s/32j0t0nsceclczx/VID_20221019_171145.mp4?dl=0
 
 ## Create environment
 I manage my Python versions using (Mini)Conda and my packages using
