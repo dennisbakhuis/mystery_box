@@ -2,6 +2,9 @@
 This is the repos with the files I used to solve the mystery_box
 puzzle I got for my birthday.
 
+#### Dennis Bakhuis - 12th January 2023
+#### https://linkedin.com/in/dennisbakhuis/
+
 ## Story
 For my birthday I got a mysterious box from a friend. It was a gray
 3d-printed box with a large pad-lock on it. In the middle of the
@@ -12,6 +15,10 @@ the button turned on the unit and greeted me with "happy birthday"
 on the screen, followed by the compact instruction, and finally
 the message that it searches for the GPS satelites. The puzzle is
 to move to a specific
+
+## Raw video
+The raw video is too large for Github. It is available for download here:\
+
 
 ## Create environment
 I manage my Python versions using (Mini)Conda and my packages using
@@ -39,10 +46,13 @@ make init
 ```
 
 ### Creating environment without Makefile
-If you do not want to use Poetry, we can do the default pip way:
+If you do not want to use a Makefile we can do the step manually:
 ```bash
 conda env create -f environment.yml
 conda activate mystery_box
 poetry install
 ```
+
+I have also exported poetry.lock to a requirements.txt but did
+not test the result. Use at your own risk!
 
